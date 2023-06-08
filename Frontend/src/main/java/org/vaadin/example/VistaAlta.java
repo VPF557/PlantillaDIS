@@ -34,7 +34,7 @@ public class VistaAlta extends VerticalLayout {
         TextField texto5 = new TextField();
 
         Button boton = new Button("Añadir");
-//Corregido
+//Corregido y hecho
         boton.addClickListener(new ComponentEventListener<ClickEvent<Button>>() {
             @Override
             public void onComponentEvent(ClickEvent<Button> event) {
