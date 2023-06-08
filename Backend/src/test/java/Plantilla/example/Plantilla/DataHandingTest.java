@@ -29,5 +29,18 @@ public class DataHandingTest {
     @Test
     public void eliminarObjeto()
     {
+        DataHanding data = new DataHanding();
+        ArrayList<Criptomoneda> listaAux= new ArrayList<Criptomoneda>();
+        Criptomoneda pr1 = new Criptomoneda(0,"SuperCoin",129,78.36,"Terciaria","Media");
+        listaAux = data.EliminarObjeto(pr1.getId(),"Criptomonedas.json");
+
+        if(data.ComprobarObjeto(pr1,"Criptomonedas.json",listaAux) == 0)
+        {
+            assertTrue(true);
+        }
+        else
+        {
+            fail("No se ha eliminado correctamente");
+        }
     }
 }
