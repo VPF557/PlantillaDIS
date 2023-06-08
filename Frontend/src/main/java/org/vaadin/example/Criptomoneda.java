@@ -89,7 +89,7 @@ public class Criptomoneda
                 "\"nombre\": " + "\"" + nombre + "\"," + "\n" +
                 "\"valor\": " + valor  +  ",\n" +
                 "\"fluctuacion\": " + fluctuacion  +  ",\n" +
-                "\"categoria\": " + categoria  +  ",\n" +
+                "\"categoria\": " + "\"" + categoria + "\"," + "\n" +
                 "\"popularidad\": " + "\"" + popularidad + "\"" + "\n" +
                 "}";
     }
