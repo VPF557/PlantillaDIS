@@ -48,9 +48,9 @@ public class DataHandingTest {
     public void ComprobarObjeto()
     {
         Criptomoneda pr1 = new Criptomoneda(0,"SuperCoin",129,78.36,"Terciaria","Media");
-        assertEquals(pr1.getId(),"SuperCoin");
-        assertEquals(pr1.getValor(),129);
-        assertEquals(pr1.getFluctuacion(),78.36);
+        assertEquals(pr1.getNombre(),"SuperCoin");
+        assertEquals(pr1.getValor(),129, 0.001);
+        assertEquals(pr1.getFluctuacion(),78.36, 0.001);
         assertEquals(pr1.getCategoria(),"Terciaria");
         assertEquals(pr1.getPopularidad(),"Media");
     }
