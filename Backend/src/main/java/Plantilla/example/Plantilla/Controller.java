@@ -33,10 +33,10 @@ public class Controller {
     {
         DataHanding dataHanding = new DataHanding();
         ArrayList<Criptomoneda> lista;
-        lista = dataHanding.EliminarObjeto(id,"Tweets.json");
+        lista = dataHanding.EliminarObjeto(id,"Criptomonedas.json");
         EscribirJson escribirJSON = new EscribirJson();
         escribirJSON.escribirObjeto1(lista);
         return lista;
-    } 
+    }
 
 }
