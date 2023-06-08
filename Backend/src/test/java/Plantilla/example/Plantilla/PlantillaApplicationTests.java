@@ -1,6 +1,6 @@
 package Plantilla.example.Plantilla;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.ArrayList;
@@ -9,9 +9,9 @@ import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
 @SpringBootTest
-class PlantillaApplicationTests {
-
-	@org.junit.Test
+class PlantillaApplicationTests
+{
+	@Test
 	public void anadirObjeto1()
 	{
 		DataHanding data = new DataHanding();
@@ -29,7 +29,7 @@ class PlantillaApplicationTests {
 		}
 	}
 
-	@org.junit.Test
+	@Test
 	public void eliminarObjeto()
 	{
 		DataHanding data = new DataHanding();
@@ -56,6 +56,10 @@ class PlantillaApplicationTests {
 		assertEquals(pr1.getFluctuacion(),78.36, 0.001);
 		assertEquals(pr1.getCategoria(),"Terciaria");
 		assertEquals(pr1.getPopularidad(),"Media");
+	}
+	@Test
+	void contextLoads()
+	{
 	}
 
 }
