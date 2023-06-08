@@ -16,7 +16,7 @@ public class Controller {
         //Mostramos los elementos leidos
         return lista;
     }
-/*
+
     @PostMapping("/CriptoA")
     public ArrayList<Criptomoneda> create(@RequestBody Criptomoneda objeto1)
     {
@@ -27,7 +27,7 @@ public class Controller {
         escribirJSON.escribirObjeto1(lista);
         return lista;
     }
-
+/*
     @DeleteMapping("/CriptoB{id}")
     public ArrayList<Criptomoneda> Borrar(@RequestParam int id)
     {
