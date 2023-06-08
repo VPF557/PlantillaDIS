@@ -22,7 +22,7 @@ public class Controller {
     {
         DataHanding dataHanding = new DataHanding();
         ArrayList<Criptomoneda> lista;
-        lista = dataHanding.AnadirObjeto1(objeto1,"Tweets.json");
+        lista = dataHanding.AnadirObjeto1(objeto1,"Criptomonedas.json");
         EscribirJson escribirJSON = new EscribirJson();
         escribirJSON.escribirObjeto1(lista);
         return lista;
