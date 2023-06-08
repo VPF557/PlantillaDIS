@@ -43,6 +43,7 @@ public class DataHandingTest {
             fail("No se ha eliminado correctamente");
         }
     }
+    //test
     @Test
     public void ComprobarObjeto()
     {
