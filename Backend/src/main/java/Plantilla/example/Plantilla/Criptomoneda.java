@@ -2,6 +2,7 @@ package Plantilla.example.Plantilla;
 
 public class Criptomoneda
 {
+    //añadimos id para tener como referencia la posibilidad de que se pida
     private int id;
     private String nombre;
     private double valor;
