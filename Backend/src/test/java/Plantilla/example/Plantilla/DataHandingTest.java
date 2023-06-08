@@ -14,7 +14,7 @@ public class DataHandingTest {
         DataHanding data = new DataHanding();
         ArrayList<Criptomoneda> listaAux= new ArrayList<Criptomoneda>();
         Criptomoneda pr1 = new Criptomoneda(0,"SuperCoin",129,78.36,"Terciaria","Media");
-        listaAux = data.AnadirObjeto1(pr1,"Inventario.json");
+        listaAux = data.AnadirObjeto1(pr1,"Criptomonedas.json");
 
         if(data.ComprobarObjeto(pr1,"Criptomonedas.json",listaAux) == 1)
         {
