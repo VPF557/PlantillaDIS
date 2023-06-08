@@ -2,6 +2,8 @@ package Plantilla.example.Plantilla;
 
 public class Criptomoneda
 {
+    //añadimos id para tener como referencia la posibilidad de que se pida
+    private int id;
     private String nombre;
     private double valor;
     private double fluctuacion;
@@ -9,7 +11,8 @@ public class Criptomoneda
 
     private String Popularidad;
 
-    public Criptomoneda(String nombre, double valor, double fluctuacion, String categoria, String popularidad) {
+    public Criptomoneda(int ind, String nombre, double valor, double fluctuacion, String categoria, String popularidad) {
+        this.id = id;
         this.nombre = nombre;
         this.valor = valor;
         this.fluctuacion = fluctuacion;
@@ -18,6 +21,14 @@ public class Criptomoneda
     }
 
     public Criptomoneda() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {
