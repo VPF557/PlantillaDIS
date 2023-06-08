@@ -1,6 +1,1 @@
-[
-  {"nombre":"bitcoin","valor":20000,"fluctuacion":15,"categoria":"Primaria","Popularidad": "Alta"},
-  {"nombre":"ethereum","valor":10000,"fluctuacion":12,"categoria":"Primaria","Popularidad": "Alta"},
-  {"nombre":"monero","valor":2000,"fluctuacion":19,"categoria":"Secundria","Popularidad": "Baja"},
-  {"nombre":"dogecoin","valor":300,"fluctuacion":6,"categoria":"Secundria","Popularidad": "Alta"}
-]
+[{"id":1,"nombre":"bitcoin","valor":20000.0,"fluctuacion":15.0,"categoria":"Primaria","Popularidad":"Alta"},{"id":2,"nombre":"ethereum","valor":10000.0,"fluctuacion":12.0,"categoria":"Primaria","Popularidad":"Alta"},{"id":3,"nombre":"monero","valor":2000.0,"fluctuacion":19.0,"categoria":"Secundria","Popularidad":"Baja"},{"id":4,"nombre":"dogecoin","valor":300.0,"fluctuacion":6.0,"categoria":"Secundria","Popularidad":"Alta"}]
