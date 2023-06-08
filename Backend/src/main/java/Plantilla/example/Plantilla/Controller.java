@@ -16,18 +16,18 @@ public class Controller {
         //Mostramos los elementos leidos
         return lista;
     }
-/*
+
     @PostMapping("/CriptoA")
     public ArrayList<Criptomoneda> create(@RequestBody Criptomoneda objeto1)
     {
         DataHanding dataHanding = new DataHanding();
         ArrayList<Criptomoneda> lista;
-        lista = dataHanding.AnadirObjeto1(objeto1,"Tweets.json");
+        lista = dataHanding.AnadirObjeto1(objeto1,"Criptomonedas.json");
         EscribirJson escribirJSON = new EscribirJson();
         escribirJSON.escribirObjeto1(lista);
         return lista;
     }
-
+/*
     @DeleteMapping("/CriptoB{id}")
     public ArrayList<Criptomoneda> Borrar(@RequestParam int id)
     {
