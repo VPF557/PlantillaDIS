@@ -1,0 +1,3 @@
+FROM amazoncorretto:11
+COPY Plantilla-1.0.jar Plantilla-1.0.jar
+ENTRYPOINT ["java", "-jar", "/Plantilla-1.0.jar"]

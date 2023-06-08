@@ -8,7 +8,7 @@ public class Criptomoneda
     private double valor;
     private double fluctuacion;
     private String categoria;
-
+//hecho
     private String popularidad;
 
     public Criptomoneda(int ind, String nombre, double valor, double fluctuacion, String categoria, String popularidad) {
