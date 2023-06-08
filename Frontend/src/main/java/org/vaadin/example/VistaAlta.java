@@ -11,7 +11,7 @@ import com.vaadin.flow.component.textfield.TextField;
 import java.util.ArrayList;
 
 public class VistaAlta extends VerticalLayout {
-    ArrayList<Tweet> listaPacientes = new ArrayList<>();
+    ArrayList<Criptomoneda> listaPacientes = new ArrayList<>();
     public VistaAlta()
     {
 
@@ -47,10 +47,12 @@ public class VistaAlta extends VerticalLayout {
                 texto1.setValue("");
                 texto2.setValue("");
                 texto3.setValue("");
+                texto4.setValue("");
+                texto5.setValue("");
             }
         });
 
-        horizontal.add(etiqueta1, texto1, etiqueta2, texto2, etiqueta3, texto3);
+        horizontal.add(etiqueta1, texto1, etiqueta2, texto2, etiqueta3, texto3,etiqueta4, texto4,etiqueta5, texto5);
         this.add(horizontal,boton);
     }
 }
