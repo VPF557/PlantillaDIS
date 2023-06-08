@@ -1,0 +1,6 @@
+[
+  {"nombre":"bitcoin","valor":20000,"fluctuacion":15,"categoria":"Primaria","Popularidad": "Alta"},
+  {"nombre":"ethereum","valor":10000,"fluctuacion":12,"categoria":"Primaria","Popularidad": "Alta"},
+  {"nombre":"monero","valor":2000,"fluctuacion":19,"categoria":"Secundria","Popularidad": "Baja"},
+  {"nombre":"dogecoin","valor":300,"fluctuacion":6,"categoria":"Secundria","Popularidad": "Alta"}
+]
