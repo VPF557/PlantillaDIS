@@ -27,7 +27,7 @@ public class Controller {
         escribirJSON.escribirObjeto1(lista);
         return lista;
     }
-
+//hecho
     @DeleteMapping("/CriptoB{id}")
     public ArrayList<Criptomoneda> Borrar(@RequestParam int id)
     {
