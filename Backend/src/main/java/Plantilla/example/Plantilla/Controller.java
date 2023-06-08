@@ -12,7 +12,7 @@ public class Controller {
     {
         LeerJson reader = new LeerJson();
         //Leemos el reason e introducimos los elementos en un arraylist
-        ArrayList<Criptomoneda> lista = reader.LeerFicheroJson1("Tweets.json");
+        ArrayList<Criptomoneda> lista = reader.LeerFicheroJson1("Criptomonedas.json");
         //Mostramos los elementos leidos
         return lista;
     }
