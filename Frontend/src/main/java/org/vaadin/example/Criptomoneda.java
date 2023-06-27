@@ -1,5 +1,7 @@
 package org.vaadin.example;
 
+import com.google.gson.Gson;
+
 public class Criptomoneda
 {
     //añadimos id para tener como referencia la posibilidad de que se pida
@@ -84,13 +86,7 @@ public class Criptomoneda
 
     public String mostrarJson()
     {
-        return "{\n" +
-                "\"id\": " + id  +  ",\n" +
-                "\"nombre\": " + "\"" + nombre + "\"," + "\n" +
-                "\"valor\": " + valor  +  ",\n" +
-                "\"fluctuacion\": " + fluctuacion  +  ",\n" +
-                "\"categoria\": " + "\"" + categoria + "\"," + "\n" +
-                "\"popularidad\": " + "\"" + popularidad + "\"" + "\n" +
-                "}";
+        Gson gson = new Gson();
+        return gson.toJson(this);
     }
 }
